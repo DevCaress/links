@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import instagram from "~/assets/instagram.png";
 import tiktok from "~/assets/tiktok.png";
 import github from "~/assets/github.png";
@@ -75,7 +75,7 @@ const icons = [
 </template>
 <style>
 .links-container {
-  @apply flex flex-col items-center justify-center gap-4 mt-4 w-4/6 mx-auto;
+  @apply flex flex-col items-center justify-center gap-4 mt-4 w-11/12 md:w-4/6 max-w-screen-md mx-auto;
 }
 .img-container {
   @apply flex items-center justify-center;
