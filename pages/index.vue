@@ -1,0 +1,83 @@
+<script setup>
+import instagram from "~/assets/instagram.png";
+import tiktok from "~/assets/tiktok.png";
+import github from "~/assets/github.png";
+import linkedin from "~/assets/linkedin.png";
+import youtube from "~/assets/youtube.png";
+import twitter from "~/assets/twitter.png";
+import facebook from "~/assets/facebook.png";
+
+const btns = ref([
+  {
+    text: "Guía para entrevistas de programación 💻💻💻",
+    link: "https://github.com/DevCaress/guia-entrevistas-de-programacion",
+  },
+  {
+    text: "Mi curso de programación básica (Gratis) 🚀🚀🚀",
+    link: "https://www.youtube.com/watch?v=RtudmQ5rLCg&list=PLxvYdwV3tpkCwPcMyQslsXWFsVfY7P584",
+  },
+  {
+    text: "Grupo de whatsapp 😎😎😎",
+    link: "https://chat.whatsapp.com/CPCxwccekLO8po57XTdAsA",
+  },
+]);
+
+const icons = [
+  { name: instagram, link: "https://www.instagram.com/DevCaress" },
+  { name: tiktok, link: "https://www.tiktok.com/@DevCaress" },
+  { name: github, link: "https://github.com/DevCaress" },
+  { name: linkedin, link: "linkedin.com/in/daniel-enriquez-lucas/" },
+  { name: youtube, link: "https://www.youtube.com/c/DevCaress" },
+  { name: twitter, link: "https://twitter.com/DevCaress" },
+  { name: facebook, link: "https://www.facebook.com/DevCaress" },
+  /* {name: 'streamline:discord-1-solid', link: 'https://discord.gg/DevCaress'},
+  {name: 'streamline:whatsapp-1-solid', link: 'https://wa.me/DevCaress'},
+  {name: 'streamline:telegram-1-solid', link: 'https://t.me/DevCaress'}, */
+];
+</script>
+
+<template>
+  <section class="dark:bg-black h-screen pt-10">
+    <!-- <MainHeader /> -->
+
+    <section class="img-container mb-4">
+      <img
+        class="w-40 h-40 rounded-full"
+        src="~/assets/caress.jpg"
+        alt="Profile picture"
+      />
+    </section>
+
+    <section class="img-container gap-4">
+      <IconBtn
+        v-for="(item, index) in icons"
+        :key="index"
+        :name="item.name"
+        :link="item.link"
+      />
+    </section>
+
+    <section class="links-container">
+      <LinkBtn
+        v-for="(item, index) in btns"
+        :key="index"
+        :text="item.text"
+        :link="item.link"
+      />
+    </section>
+
+    <footer class="flex items-center justify-center h-16">
+      <p class="text-sm text-gray-500 dark:text-gray-400">
+        &copy; 2024 DevCaress. All rights reserved.
+      </p>
+    </footer>
+  </section>
+</template>
+<style>
+.links-container {
+  @apply flex flex-col items-center justify-center gap-4 mt-4 w-4/6 mx-auto;
+}
+.img-container {
+  @apply flex items-center justify-center;
+}
+</style>
