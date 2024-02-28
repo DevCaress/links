@@ -18,7 +18,7 @@ const props = defineProps({
 
 <template>
   <a :href="props.link">
-    <div class="w-5 sm:w-7 md:w-9 cursor-pointer">
+    <div class="w-7 sm:w-9 cursor-pointer">
       <img :src="props.name" class="w-full" />
     </div>
   </a>
