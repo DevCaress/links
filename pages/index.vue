@@ -17,6 +17,10 @@ const btns = ref([
     link: "https://www.youtube.com/watch?v=RtudmQ5rLCg&list=PLxvYdwV3tpkCwPcMyQslsXWFsVfY7P584",
   },
   {
+    text: "Mi Curriculum (resume) 📄📄📄",
+    link: "https://caress.dev/DanielEnriquezCV.pdf",
+  },
+  {
     text: "Grupo de whatsapp 😎😎😎",
     link: "https://chat.whatsapp.com/CPCxwccekLO8po57XTdAsA",
   },
