@@ -24,13 +24,17 @@ const btns = ref([
     text: "Grupo de whatsapp 😎😎😎",
     link: "https://chat.whatsapp.com/CPCxwccekLO8po57XTdAsA",
   },
+  {
+    text: "LinkedIn del wey que comparte Interships 🤓🤓🤓",
+    link: "https://www.linkedin.com/in/markbenliyan/",
+  },
 ]);
 
 const icons = [
   { name: instagram, link: "https://www.instagram.com/DevCaress" },
   { name: tiktok, link: "https://www.tiktok.com/@DevCaress" },
   { name: github, link: "https://github.com/DevCaress" },
-  { name: linkedin, link: "linkedin.com/in/daniel-enriquez-lucas/" },
+  { name: linkedin, link: "https://linkedin.com/in/daniel-enriquez-lucas/" },
   { name: youtube, link: "https://www.youtube.com/c/DevCaress" },
   { name: twitter, link: "https://twitter.com/DevCaress" },
   { name: facebook, link: "https://www.facebook.com/DevCaress" },
