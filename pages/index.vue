@@ -28,6 +28,10 @@ const btns = ref([
     text: "LinkedIn del wey que comparte Interships 🤓🤓🤓",
     link: "https://www.linkedin.com/in/markbenliyan/",
   },
+  {
+    text: "Maraton de datos 📊📊📊",
+    link: "https://get.tripleten.com/maratondatos",
+  },
 ]);
 
 const icons = [
