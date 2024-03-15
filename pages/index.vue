@@ -8,6 +8,10 @@ import twitter from "~/assets/twitter.png";
 import facebook from "~/assets/facebook.png";
 
 const btns = ref([
+{
+    text: "Conferencía de chismecitos 🤫🤫🤫",
+    link: "https://youtu.be/RBbCjDF1lUM?si=jy0d9-xDmU8u_lGI",
+  },
   {
     text: "Guía para entrevistas de programación 💻💻💻",
     link: "https://github.com/DevCaress/guia-entrevistas-de-programacion",
@@ -39,7 +43,7 @@ const icons = [
   { name: tiktok, link: "https://www.tiktok.com/@DevCaress" },
   { name: github, link: "https://github.com/DevCaress" },
   { name: linkedin, link: "https://linkedin.com/in/daniel-enriquez-lucas/" },
-  { name: youtube, link: "https://www.youtube.com/c/DevCaress" },
+  { name: youtube, link: "https://www.youtube.com/channel/UCX1BEJAE6Mx9Tz6ty28oJWQ" },
   { name: twitter, link: "https://twitter.com/DevCaress" },
   { name: facebook, link: "https://www.facebook.com/DevCaress" },
   /* {name: 'streamline:discord-1-solid', link: 'https://discord.gg/DevCaress'},
