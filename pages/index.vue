@@ -9,8 +9,12 @@ import facebook from "~/assets/facebook.png";
 
 const btns = ref([
 {
-    text: "Conferencía de chismecitos 🤫🤫🤫",
+    text: "Mi conferencia  🤫🤫🤫",
     link: "https://youtu.be/RBbCjDF1lUM?si=jy0d9-xDmU8u_lGI",
+  },
+  {
+    text: "JavaScript Visualized Series' Articles",
+    link: "https://dev.to/lydiahallie/series/3341",
   },
   {
     text: "Guía para entrevistas de programación 💻💻💻",
@@ -32,10 +36,7 @@ const btns = ref([
     text: "LinkedIn del wey que comparte Interships 🤓🤓🤓",
     link: "https://www.linkedin.com/in/markbenliyan/",
   },
-  {
-    text: "Maraton de datos 📊📊📊",
-    link: "https://get.tripleten.com/maratondatos",
-  },
+  
 ]);
 
 const icons = [
