@@ -7,8 +7,12 @@ import youtube from "~/assets/youtube.png";
 import twitter from "~/assets/twitter.png";
 import facebook from "~/assets/facebook.png";
 
-const btns = ref([
-{
+const btns = [
+  {
+    text: "Mi nuevo monitor BenQ 🖥🖥🖥",
+    link: "https://bit.ly/48jWCGf",
+  },
+  {
     text: "Mi conferencia  🤫🤫🤫",
     link: "https://youtu.be/RBbCjDF1lUM?si=jy0d9-xDmU8u_lGI",
   },
@@ -36,15 +40,17 @@ const btns = ref([
     text: "LinkedIn del wey que comparte Interships 🤓🤓🤓",
     link: "https://www.linkedin.com/in/markbenliyan/",
   },
-  
-]);
+];
 
 const icons = [
   { name: instagram, link: "https://www.instagram.com/DevCaress" },
   { name: tiktok, link: "https://www.tiktok.com/@DevCaress" },
   { name: github, link: "https://github.com/DevCaress" },
   { name: linkedin, link: "https://linkedin.com/in/daniel-enriquez-lucas/" },
-  { name: youtube, link: "https://www.youtube.com/channel/UCX1BEJAE6Mx9Tz6ty28oJWQ" },
+  {
+    name: youtube,
+    link: "https://www.youtube.com/channel/UCX1BEJAE6Mx9Tz6ty28oJWQ",
+  },
   { name: twitter, link: "https://twitter.com/DevCaress" },
   { name: facebook, link: "https://www.facebook.com/DevCaress" },
   /* {name: 'streamline:discord-1-solid', link: 'https://discord.gg/DevCaress'},
