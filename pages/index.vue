@@ -9,10 +9,6 @@ import facebook from "~/assets/facebook.png";
 
 const btns = ref([
   {
-    text: "UGREEN Nexode Pro 160W Cargado",
-    link: "https://amzn.to/3Q8ZXSk",
-  },
-  {
     text: "Conferencía de chismecitos 🤫🤫🤫",
     link: "https://youtu.be/RBbCjDF1lUM?si=jy0d9-xDmU8u_lGI",
   },
@@ -37,7 +33,7 @@ const btns = ref([
     link: "https://chat.whatsapp.com/CPCxwccekLO8po57XTdAsA",
   },
   {
-    text: "LinkedIn del wey que comparte Interships 🤓🤓🤓",
+    text: "LinkedIn del dude que comparte Interships 🤓🤓🤓",
     link: "https://www.linkedin.com/in/markbenliyan/",
   },
 ]);
@@ -60,7 +56,7 @@ const icons = [
 </script>
 
 <template>
-  <section class="dark:bg-black h-screen pt-10">
+  <section class="dark:bg-black min-h-screen pt-10">
     <!-- <MainHeader /> -->
 
     <section class="img-container mb-4">
