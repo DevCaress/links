@@ -9,12 +9,8 @@ import facebook from "~/assets/facebook.png";
 
 const btns = ref([
   {
-    text: 'Ugreen 145W Power Bank',
-    link: 'https://amzn.to/4bl0pVn'
-  },
-  {
-    text: 'Ofertas de Prime day de Ugreen, hasta 45% off',
-    link: 'https://amzn.to/4cFNYV4'
+    text: "Cuestionario de orientación profesional 🚀🚀🚀",
+    link: "https://go.tripleten.com/devcaress",
   },
   {
     text: "Conferencía de chismecitos 🤫🤫🤫",
