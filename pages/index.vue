@@ -6,27 +6,28 @@ import linkedin from "~/assets/linkedin.png";
 import youtube from "~/assets/youtube.png";
 import twitter from "~/assets/twitter.png";
 import facebook from "~/assets/facebook.png";
+import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   {
-    text: "Cuestionario de orientación profesional 🚀🚀🚀",
-    link: "https://go.tripleten.com/devcaress",
-  },
-  {
-    text: "Conferencía de chismecitos 🤫🤫🤫",
-    link: "https://youtu.be/RBbCjDF1lUM?si=jy0d9-xDmU8u_lGI",
-  },
-  {
-    text: "JavaScript Visualized Series' Articles",
-    link: "https://dev.to/lydiahallie/series/3341",
+    text: "Asesorías personalizadas 🚀🚀🚀",
+    link: "https://caress.dev/asesorias",
   },
   {
     text: "Guía para entrevistas de programación 💻💻💻",
     link: "https://github.com/DevCaress/guia-entrevistas-de-programacion",
   },
   {
+    text: "Mi conferencía sobre NPM y manejo de dependencias 🤫🤫🤫",
+    link: "https://youtu.be/RBbCjDF1lUM?si=jy0d9-xDmU8u_lGI",
+  },
+  {
     text: "Mi curso de programación básica (Gratis) 🚀🚀🚀",
     link: "https://www.youtube.com/watch?v=RtudmQ5rLCg&list=PLxvYdwV3tpkCwPcMyQslsXWFsVfY7P584",
+  },
+  {
+    text: "JavaScript Visualized Series' Articles",
+    link: "https://dev.to/lydiahallie/series/3341",
   },
   {
     text: "Mi Curriculum (resume) 📄📄📄",
@@ -60,8 +61,7 @@ const icons = [
 </script>
 
 <template>
-  <section class="dark:bg-black min-h-screen pt-10">
-    <!-- <MainHeader /> -->
+  <MainLayout class="dark:bg-black min-h-screen pt-10">
 
     <section class="img-container mb-4">
       <img
@@ -89,14 +89,10 @@ const icons = [
       />
     </section>
 
-    <footer class="flex items-center justify-center h-16">
-      <p class="text-sm text-gray-500 dark:text-gray-400">
-        &copy; 2024 DevCaress. All rights reserved.
-      </p>
-    </footer>
-  </section>
+  </MainLayout>
 </template>
 <style>
+
 .links-container {
   @apply flex flex-col items-center justify-center gap-4 mt-4 w-11/12 md:w-4/6 max-w-screen-md mx-auto;
 }
