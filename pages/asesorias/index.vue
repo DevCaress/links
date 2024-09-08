@@ -14,15 +14,13 @@ import MainLayout from "~/layouts/MainLayout.vue";
           <h1
             class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
           >
-            Asesorías personalizas con DevCaress
+            Asesorías chingonas con el Caress
           </h1>
           <p
             class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-20 dark:text-gray-400"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Ya para que te pongas chingon, ahora si llegaron las asesorías tanto para gente que va empezando y no sabe que pedo con su vida
+            como para los que ya andan chambeando pero no saben como verga avanzar en su carrera 
           </p>
         </div>
         <div class="rounded-lg mb-5">
