@@ -7,5 +7,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
-  ]
+  ],
+  plugins: process.env.NODE_ENV === 'production' ? ['~/plugins/google-analytics.js'] : []
 })
