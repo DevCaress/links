@@ -14,6 +14,10 @@ const btns = ref([
     link: "https://caress.dev/asesorias",
   },
   {
+    text: "Powerbank con ojitos <3 <3",
+    link: "https://amzn.to/3LUkGa2",
+  },
+  {
     text: "Guía para entrevistas de programación 💻💻💻",
     link: "https://github.com/DevCaress/guia-entrevistas-de-programacion",
   },
