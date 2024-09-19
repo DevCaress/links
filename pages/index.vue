@@ -10,12 +10,12 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   {
-    text: "Asesorías personalizadas 🚀🚀🚀",
-    link: "https://caress.dev/asesorias",
+    text: "Consulta profesional - Tripleten",
+    link: "https://go.tripleten.com/devcaress1",
   },
   {
-    text: "Powerbank con ojitos <3 <3",
-    link: "https://amzn.to/3LUkGa2",
+    text: "Asesorías personalizadas 🚀🚀🚀",
+    link: "https://caress.dev/asesorias",
   },
   {
     text: "Guía para entrevistas de programación 💻💻💻",
@@ -66,7 +66,6 @@ const icons = [
 
 <template>
   <MainLayout class="dark:bg-black min-h-screen pt-10">
-
     <section class="img-container mb-4">
       <img
         class="w-40 h-40 rounded-full"
@@ -92,11 +91,9 @@ const icons = [
         :link="item.link"
       />
     </section>
-
   </MainLayout>
 </template>
 <style>
-
 .links-container {
   @apply flex flex-col items-center justify-center gap-4 mt-4 w-11/12 md:w-4/6 max-w-screen-md mx-auto;
 }
