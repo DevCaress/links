@@ -10,6 +10,10 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   {
+    text: "Flores Amarillas repositorio 🌻🌻🌻",
+    link: "https://github.com/DevCaress/yellow-flowers",
+  },
+  {
     text: "Consulta profesional - Tripleten",
     link: "https://go.tripleten.com/devcaress1",
   },
@@ -67,29 +71,15 @@ const icons = [
 <template>
   <MainLayout class="dark:bg-black min-h-screen pt-10">
     <section class="img-container mb-4">
-      <img
-        class="w-40 h-40 rounded-full"
-        src="~/assets/caress.jpg"
-        alt="Profile picture"
-      />
+      <img class="w-40 h-40 rounded-full" src="~/assets/caress.jpg" alt="Profile picture" />
     </section>
 
     <section class="img-container gap-4">
-      <IconBtn
-        v-for="(item, index) in icons"
-        :key="index"
-        :name="item.name"
-        :link="item.link"
-      />
+      <IconBtn v-for="(item, index) in icons" :key="index" :name="item.name" :link="item.link" />
     </section>
 
     <section class="links-container">
-      <LinkBtn
-        v-for="(item, index) in btns"
-        :key="index"
-        :text="item.text"
-        :link="item.link"
-      />
+      <LinkBtn v-for="(item, index) in btns" :key="index" :text="item.text" :link="item.link" />
     </section>
   </MainLayout>
 </template>
@@ -97,6 +87,7 @@ const icons = [
 .links-container {
   @apply flex flex-col items-center justify-center gap-4 mt-4 w-11/12 md:w-4/6 max-w-screen-md mx-auto;
 }
+
 .img-container {
   @apply flex items-center justify-center;
 }
