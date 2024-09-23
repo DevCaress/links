@@ -10,12 +10,12 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   {
-    text: "Flores Amarillas repositorio 🌻🌻🌻",
-    link: "https://github.com/DevCaress/yellow-flowers",
+    text: "Webinar sobre Inteligencia Artificial - Tripleten",
+    link: "https://go.tripleten.com/devcaress2",
   },
   {
-    text: "Consulta profesional - Tripleten",
-    link: "https://go.tripleten.com/devcaress1",
+    text: "Flores Amarillas repositorio 🌻🌻🌻",
+    link: "https://github.com/DevCaress/yellow-flowers",
   },
   {
     text: "Asesorías personalizadas 🚀🚀🚀",
