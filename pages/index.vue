@@ -69,7 +69,7 @@ const icons = [
 </script>
 
 <template>
-  <MainLayout class="dark:bg-black min-h-screen pt-10">
+  <MainLayout class="bg-black min-h-screen pt-10">
     <section class="img-container mb-4">
       <img class="w-40 h-40 rounded-full" src="~/assets/caress.jpg" alt="Profile picture" />
     </section>
