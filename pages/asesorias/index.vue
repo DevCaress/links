@@ -111,6 +111,24 @@ import MainLayout from "~/layouts/MainLayout.vue";
         </div>
       </section>
 
+      <section class="md:flex">
+        <div
+          class="w-10/12 flex flex-col justify-center items-center mx-auto"
+        >
+          <h2
+            class="mb-4 text-4xl font-extrabold leading-none tracking-tight  text-white"
+          >
+            Horario de asesorías
+          </h2>
+          <p
+            class="mb-6 text-lg font-normal lg:text-xl sm:px-16 text-gray-400"
+          >
+            Por el momento solo doy asesorías de Lunes a Viernes a las 2pm hora CDMX <br>
+            (Se puede cuadrar algun otro horario pero sería cuestión de disponibilidad)
+          </p>
+        </div>
+      </section>
+
       <section>
         <div class="block w-full max-w-[700px] cursor-pointer mx-auto">
           <div
