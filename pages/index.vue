@@ -10,6 +10,14 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   {
+    text: 'Cargador 100w con piecitos (30% OFF) 🦶🦶🦶',
+    link: 'https://amzn.to/4gtNRyM'
+  },
+  {
+    text: 'Cargador 2 en 1 Magnético Inalámbrico(30% OFF) 🦶🦶🦶',
+    link: 'https://amzn.to/4gtNRyM'
+  },
+  {
     text: "Asesorías personalizadas 🚀🚀🚀",
     link: "https://caress.dev/asesorias",
   },
@@ -24,10 +32,6 @@ const btns = ref([
   {
     text: "Mi curso de programación básica (Gratis) 🚀🚀🚀",
     link: "https://www.youtube.com/watch?v=RtudmQ5rLCg&list=PLxvYdwV3tpkCwPcMyQslsXWFsVfY7P584",
-  },
-  {
-    text: "JavaScript Visualized Series' Articles",
-    link: "https://dev.to/lydiahallie/series/3341",
   },
   {
     text: "Mi Curriculum (resume) 📄📄📄",
