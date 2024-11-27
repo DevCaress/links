@@ -10,12 +10,8 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   {
-    text: 'Cargador 100w con piecitos (30% OFF) 🦶🦶🦶',
-    link: 'https://amzn.to/4gtNRyM'
-  },
-  {
-    text: 'Cargador 2 en 1 Magnético Inalámbrico(30% OFF) 🦶🦶🦶',
-    link: 'https://amzn.to/4gtNRyM'
+    text: 'Playeras de programación 💻💻💻',
+    link: 'https://www.cerebrots.com/discount/DEVCARESS?redirect=%2Fcollections%2Fdevcaress'
   },
   {
     text: "Asesorías personalizadas 🚀🚀🚀",
