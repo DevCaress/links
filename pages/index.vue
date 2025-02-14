@@ -9,6 +9,10 @@ import facebook from "~/assets/facebook.png";
 import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
+	{
+    text: 'Consigue trabajo como Junior con Academy by La Pieza',
+    link: 'https://academy.lapieza.io/'
+  },
   {
     text: 'Playeras de programación 💻💻💻',
     link: 'https://www.cerebrots.com/discount/DEVCARESS?redirect=%2Fcollections%2Fdevcaress'
