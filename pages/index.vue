@@ -10,7 +10,7 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
 	{
-    text: 'Consigue trabajo como Junior con Academy by La Pieza',
+    text: 'Consigue trabajo como Junior/Mid con Academy by La Pieza 💼💼💼',
     link: 'https://academy.lapieza.io/'
   },
   {
