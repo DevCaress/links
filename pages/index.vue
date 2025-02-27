@@ -10,6 +10,10 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   {
+    text: 'Curso gratis de IA by Red Hat 😎😎😎',
+    link: 'https://www.redhat.com/es/services/training/ai067-red-hat-openshift-ai-technical-overview'
+  },
+  {
     text: 'Playeras de programación 💻💻💻',
     link: 'https://www.cerebrots.com/discount/DEVCARESS?redirect=%2Fcollections%2Fdevcaress'
   },
@@ -54,9 +58,6 @@ const icons = [
   },
   { name: twitter, link: "https://twitter.com/DevCaress" },
   { name: facebook, link: "https://www.facebook.com/DevCaress" },
-  /* {name: 'streamline:discord-1-solid', link: 'https://discord.gg/DevCaress'},
-  {name: 'streamline:whatsapp-1-solid', link: 'https://wa.me/DevCaress'},
-  {name: 'streamline:telegram-1-solid', link: 'https://t.me/DevCaress'}, */
 ];
 </script>
 
