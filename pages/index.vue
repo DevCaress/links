@@ -9,10 +9,6 @@ import facebook from "~/assets/facebook.png";
 import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
-	{
-    text: 'Consigue trabajo como Junior/Mid con Academy by La Pieza 💼💼💼',
-    link: 'https://academy.lapieza.io/'
-  },
   {
     text: 'Curso gratis de IA by Red Hat 😎😎😎',
     link: 'https://www.redhat.com/es/services/training/ai067-red-hat-openshift-ai-technical-overview'
