@@ -8,5 +8,16 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
   ],
-  plugins: process.env.NODE_ENV === 'production' ? ['~/plugins/google-analytics.js'] : []
+  plugins: process.env.NODE_ENV === 'production' ? ['~/plugins/google-analytics.js'] : [],
+  app:{
+    head: {
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/png',
+          href: './favicon.png'
+        }
+      ]
+    }
+  }
 })
