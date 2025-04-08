@@ -123,7 +123,7 @@ import MainLayout from "~/layouts/MainLayout.vue";
           <p
             class="mb-6 text-lg font-normal lg:text-xl sm:px-16 text-gray-400"
           >
-            Por el momento solo doy asesorías de Lunes a Viernes a las 2pm hora CDMX <br>
+            Por el momento solo doy asesorías de Lunes a Viernes de las 9am - 6 pm hora CDMX <br>
             (Se puede cuadrar algun otro horario pero sería cuestión de disponibilidad)
           </p>
         </div>
