@@ -11,7 +11,7 @@ import MainLayout from "~/layouts/MainLayout.vue";
 const btns = ref([
   { 
     text: "Test de vocación para programadores (Tripleten) 🚀🚀🚀",
-    link: "https://go.tripleten.com/devcaress4",
+    link: "https://go.tripleten.com/devcaress5",
   },
   { 
     text: "Asesorías personalizadas 🚀🚀🚀",
