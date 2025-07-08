@@ -10,8 +10,12 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   { 
-    text: "Test de vocación para programadores (Tripleten) 🚀🚀🚀",
-    link: "https://go.tripleten.com/devcaress5",
+    text: "Mejora tu inglés con Clubs de Conversación",
+    link: "https://growmo.tech",
+  },
+  {
+    text: 'UGREEN Nexode 500W GAN Cargador ',
+    link: 'ttps://amzn.to/3ZKS9Lo'
   },
   { 
     text: "Asesorías personalizadas 🚀🚀🚀",
@@ -20,10 +24,6 @@ const btns = ref([
   {
     text: 'Playeras de programación 💻💻💻',
     link: 'https://www.cerebrots.com/discount/DEVCARESS?redirect=%2Fcollections%2Fdevcaress'
-  },
-  {
-    text: 'Curso gratis de IA by Red Hat 😎😎😎',
-    link: 'https://www.redhat.com/es/services/training/ai067-red-hat-openshift-ai-technical-overview'
   },
   {
     text: "Guía para entrevistas de programación 💻💻💻",
