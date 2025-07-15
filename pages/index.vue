@@ -14,7 +14,7 @@ const btns = ref([
     link: "https://growmo.tech",
   },
   {
-    text: 'Walmart Java Challanges y Vacantes aviertas',
+    text: 'Walmart Java Challanges y Vacantes abiertas',
     link: 'https://github.com/Walmart-Tech-Mexico'
   },
   { 
