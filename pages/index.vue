@@ -14,8 +14,8 @@ const btns = ref([
     link: "https://growmo.tech",
   },
   {
-    text: 'UGREEN Nexode 500W GAN Cargador ',
-    link: 'ttps://amzn.to/3ZKS9Lo'
+    text: 'Walmart Java Challanges y Vacantes aviertas',
+    link: 'https://github.com/Walmart-Tech-Mexico'
   },
   { 
     text: "Asesorías personalizadas 🚀🚀🚀",
