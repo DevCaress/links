@@ -15,7 +15,7 @@ const btns = ref([
   },
   {
     text: 'Crea Apps con AI - Rocket',
-    link: 'https://www.rocket.new/?utm_source=tiktok&utm_medium=social&utm_campaign=tiktok&utm_term=devcaress
+    link: 'https://www.rocket.new/?utm_source=tiktok&utm_medium=social&utm_campaign=tiktok&utm_term=devcaress'
   },
   { 
     text: "Asesorías personalizadas 🚀🚀🚀",
