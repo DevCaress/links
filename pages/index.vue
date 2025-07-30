@@ -14,8 +14,8 @@ const btns = ref([
     link: "https://growmo.tech",
   },
   {
-    text: 'Walmart Java Challanges y Vacantes abiertas',
-    link: 'https://github.com/Walmart-Tech-Mexico'
+    text: 'Crea Apps con AI - Rocket',
+    link: 'https://www.rocket.new/?utm_source=tiktok&utm_medium=social&utm_campaign=tiktok&utm_term=devcaress
   },
   { 
     text: "Asesorías personalizadas 🚀🚀🚀",
