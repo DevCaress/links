@@ -13,13 +13,13 @@ const btns = ref([
     text: "Mejora tu inglés con Clubs de Conversación",
     link: "https://growmo.tech",
   },
-  {
-    text: 'Crea Apps con AI - Rocket',
-    link: 'https://www.rocket.new/?utm_source=tiktok&utm_medium=social&utm_campaign=tiktok&utm_term=devcaress'
-  },
   { 
     text: "Asesorías personalizadas 🚀🚀🚀",
     link: "https://caress.dev/asesorias",
+  },
+  {
+    text: 'Descarga y prueba TRAE 2.0',
+    link: 'https://www.trae.ai/?utm_source=content&utm_medium=tt&utm_campaign=EEZY_DevCaress'
   },
   {
     text: 'Playeras de programación 💻💻💻',
