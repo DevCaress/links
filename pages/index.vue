@@ -10,20 +10,12 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   { 
-    text: "Mejora tu inglés con Clubs de Conversación",
-    link: "https://growmo.tech",
+    text: "Crea MVPs con Emergent",
+    link: "https://lets-vibe-code.com/46bIpx8",
   },
   { 
     text: "Asesorías personalizadas 🚀🚀🚀",
     link: "https://caress.dev/asesorias",
-  },
-  {
-    text: 'Descarga y prueba TRAE 2.0',
-    link: 'https://www.trae.ai/?utm_source=content&utm_medium=tt&utm_campaign=EEZY_DevCaress'
-  },
-  {
-    text: 'Playeras de programación 💻💻💻',
-    link: 'https://www.cerebrots.com/discount/DEVCARESS?redirect=%2Fcollections%2Fdevcaress'
   },
   {
     text: "Guía para entrevistas de programación 💻💻💻",
