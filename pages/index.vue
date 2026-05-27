@@ -10,12 +10,16 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   { 
-    text: "Crea MVPs con Emergent",
-    link: "https://lets-vibe-code.com/46bIpx8",
+    text: "UGREEN Nexode Pro 100W Cargador con Pantalla Inteligente ",
+    link: "https://amzn.to/4wE5m7F",
   },
   { 
-    text: "Asesorías personalizadas 🚀🚀🚀",
-    link: "https://caress.dev/asesorias",
+    text: "UGREEN Audífonos Open Ear Bluetooth",
+    link: "https://amzn.to/3PnWoux",
+  },
+  { 
+    text: "Checa Ugreen HOT SALES Ofertas",
+    link: "https://amzn.to/3PPKk5p",
   },
   {
     text: "Guía para entrevistas de programación 💻💻💻",
@@ -36,10 +40,6 @@ const btns = ref([
   {
     text: "Grupo de whatsapp 😎😎😎",
     link: "https://chat.whatsapp.com/CPCxwccekLO8po57XTdAsA",
-  },
-  {
-    text: "LinkedIn del dude que comparte Interships 🤓🤓🤓",
-    link: "https://www.linkedin.com/in/markbenliyan/",
   },
 ]);
 
