@@ -10,16 +10,8 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   { 
-    text: "UGREEN Nexode Pro 100W Cargador con Pantalla Inteligente ",
-    link: "https://amzn.to/4wE5m7F",
-  },
-  { 
-    text: "UGREEN Audífonos Open Ear Bluetooth",
-    link: "https://amzn.to/3PnWoux",
-  },
-  { 
-    text: "Checa Ugreen HOT SALES Ofertas",
-    link: "https://amzn.to/3PPKk5p",
+    text: "Monitor RD280U de BenQ",
+    link: "https://www.benq.com/es-mx/monitor/programming/rd280u.html",
   },
   {
     text: "Guía para entrevistas de programación 💻💻💻",
