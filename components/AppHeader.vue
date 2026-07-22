@@ -12,22 +12,7 @@
         >
           <img src="~/assets/logo-h.png" class="h-10" alt="DevCaress Logo" />
         </NuxtLink>
-        <div
-          class="hidden w-full md:flex justify-center md:w-auto"
-          id="navbar-default"
-        >
-          <div
-            class="link-btn cursor-pointer relative items-center justify-center p-0.5 overflow-hidden text-sm font-medium rounded-lg bg-gradient-to-br from-red-700 to-purple-500 group group-hover:from-red-700 group-hover:to-purple-500 hover:text-white text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
-          >
-            <a href="https://www.paypal.com/ncp/payment/LY5UVXS73DMCL">
-              <p
-                class="text-lg relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0"
-              >
-                Agendar asesoría
-              </p>
-            </a>
-          </div>
-        </div>
+        
       </div>
     </nav>
   </header>

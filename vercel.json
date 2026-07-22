@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/technical-interview-guide",
+        "destination": "https://guia-entrevistas-de-programacion.vercel.app/"
+      },
+      {
+        "source": "/technical-interview-guide/:path*",
+        "destination": "https://guia-entrevistas-de-programacion.vercel.app/:path*"
+      }
+    ]
+  }
