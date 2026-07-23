@@ -9,6 +9,10 @@ import facebook from "~/assets/facebook.png";
 import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
+  {
+    text: "Crea aplicaciones con Verdent AI",
+    link: "https://www.verdent.ai/?id=701775"
+  },
   { 
     text: "Monitor RD280U de BenQ",
     link: "https://www.benq.com/es-mx/monitor/programming/rd280u.html",
