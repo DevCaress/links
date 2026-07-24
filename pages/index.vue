@@ -10,7 +10,7 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   {
-    text: "Prueba MiniMax M3 con un descuento del 12%".
+    text: "Prueba MiniMax M3 con un descuento del 12%",
     link: "https://platform.minimax.io/subscribe/coding-plan?code=1uhwmCLLDH&source=link"  
   },
   {
