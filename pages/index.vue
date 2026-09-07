@@ -10,8 +10,12 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 const btns = ref([
   {
-    text: "Prueba MiniMax M3 con un descuento del 12%",
-    link: "https://platform.minimax.io/subscribe/coding-plan?code=1uhwmCLLDH&source=link"  
+    text: "Prueba CREAO y automatiza tus procesos con AI",
+    link: "https://creao.ai/?utm_source=meta&utm_medium=influencer&utm_campaign=general&utm_content=devcaress&utm_term=fancy"  
+  },
+  {
+    text: "VOTA POR MI PARA IR A QATAR",
+    link: "https://vote.digitalcreatorawards.com/influencer/25/4952"  
   },
   {
     text: "Crea aplicaciones con Verdent AI",
