@@ -1,8 +1,15 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 4 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
+
+Use Node.js 24 (the tested version is pinned in `.nvmrc`). With nvm:
+
+```bash
+nvm install
+nvm use
+```
 
 Make sure to install the dependencies:
 
