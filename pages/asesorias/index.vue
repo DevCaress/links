@@ -150,7 +150,7 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 <style>
 section {
-  @apply my-[120px] max-w-[1024px] mx-auto;
+  @apply max-w-[1024px] mx-auto;
 }
 
 
