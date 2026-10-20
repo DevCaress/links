@@ -8,19 +8,9 @@ import twitter from "~/assets/twitter.png";
 import facebook from "~/assets/facebook.png";
 import MainLayout from "~/layouts/MainLayout.vue";
 
+const { data: videos } = await useFetch("/api/youtube");
+
 const btns = ref([
-  {
-    text: "Prueba CREAO y automatiza tus procesos con AI",
-    link: "https://creao.ai/?utm_source=meta&utm_medium=influencer&utm_campaign=general&utm_content=devcaress&utm_term=fancy"  
-  },
-  {
-    text: "VOTA POR MI PARA IR A QATAR",
-    link: "https://vote.digitalcreatorawards.com/influencer/25/4952"  
-  },
-  {
-    text: "Crea aplicaciones con Verdent AI",
-    link: "https://www.verdent.ai/?id=701775"
-  },
   { 
     text: "Monitor RD280U de BenQ",
     link: "https://www.benq.com/es-mx/monitor/programming/rd280u.html",
@@ -67,8 +57,16 @@ const icons = [
       <img class="w-40 h-40 rounded-full" src="~/assets/caress.jpg" alt="Profile picture" />
     </section>
 
-    <section class="img-container gap-4">
+    <section class="img-container gap-3">
       <IconBtn v-for="(item, index) in icons" :key="index" :name="item.name" :link="item.link" />
+    </section>
+
+    <section v-if="videos?.length" class="links-container">
+      <h2 class="text-white text-xl font-bold">Últimos videos</h2>
+      <div class="video-carousel">
+        <VideoCard v-for="video in videos" :key="video.id"
+          class="video-slide" :title="video.title" :link="video.link" :thumbnail="video.thumbnail" />
+      </div>
     </section>
 
     <section class="links-container">
@@ -83,5 +81,15 @@ const icons = [
 
 .img-container {
   @apply flex items-center justify-center;
+}
+
+.video-carousel {
+  @apply flex gap-4 w-full overflow-x-auto snap-x snap-mandatory pb-2
+         md:grid md:grid-cols-3 md:overflow-visible md:pb-0;
+  scrollbar-width: none;
+}
+.video-carousel::-webkit-scrollbar { display: none; }
+.video-slide {
+  @apply shrink-0 basis-[85%] snap-center md:basis-auto;
 }
 </style>
